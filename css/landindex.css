@@ -1,0 +1,98 @@
+.header-next-land {
+  position: absolute;
+  top: 0px;
+  background-color: #fff;
+  z-index: 250;
+  width: 100%;
+  text-align: right;
+  height: 160px; }
+
+.cloth-left-on-land {
+  position: absolute;
+  background-color: #FFF;
+  width: 60px;
+  height: 100vh;
+  z-index: 250;
+  left: 0px; }
+@media(max-width: 600px) {
+  .cloth-left-on-land {
+    width: 30px; } }
+.cloth-right-on-land {
+  position: absolute;
+  background-color: #FFF;
+  width: 60px;
+  height: 100vh;
+  z-index: 250;
+  right: 0px; }
+@media(max-width: 600px) {
+  .cloth-right-on-land {
+    width: 30px; } }
+.contant-next-land {
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  bottom: 200px;
+  padding: 0 60px;
+  z-index: 250; }
+@media(max-width :600px) {
+  .contant-next-land {
+    padding: 0 30px; } }
+.contant-paging {
+  width: 100%;
+  background-color: #fff;
+  padding: 0 60px; }
+@media(max-width :600px) {
+  .contant-paging {
+    padding: 0 30px; } }
+.main-photo, .main-photo-gallery, .main-photo-plan, .main-photo-contact {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+  background-image: url(../img/main.jpg);
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 160px;
+  height: 400px;
+  margin-bottom: 160px; }
+@media(max-width:860px) {
+  .main-photo, .main-photo-gallery, .main-photo-plan, .main-photo-contact {
+    top: 80px;
+    margin-bottom: 80px; } }
+@media(max-width: 600px) {
+  .main-photo, .main-photo-gallery, .main-photo-plan, .main-photo-contact {
+    height: 200px; } }
+  .main-photo img, .main-photo-gallery img, .main-photo-plan img, .main-photo-contact img {
+    position: absolute;
+    z-index: 50;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 275px;
+    height: 92px; }
+@media(max-width:600px) {
+  .main-photo img, .main-photo-gallery img, .main-photo-plan img, .main-photo-contact img {
+    width: calc(275px*0.6);
+    height: calc(92px*0.6); } }
+.main-photo-gallery {
+  background-image: url(../img/gallery-photo@2x.jpg); }
+
+.main-photo-plan {
+  background-image: url(../img/plan-photo@2x.jpg); }
+
+.main-photo-contact {
+  background-image: url(../img/contact-photo@2x.jpg); }
+
+.main-mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  opacity: 0.7;
+  background-color: white;
+  display: none; }
+@media(max-width:600px) {
+  .main-mask {
+    display: block; } }
+
+/*# sourceMappingURL=landindex.css.map */
